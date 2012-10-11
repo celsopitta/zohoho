@@ -31,6 +31,12 @@ module Zohoho
      record['Id']    
     end
 
+    # lead eh criado quando usuario faz simulacao no site e fornece info de contato
+    def add_lead_xml(xmlData)
+
+      record = @conn.call('Leads', 'insertRecords', {:xmlData => xmlData, :newFormat => 1}, :post)
+      record['Id']
+    end
 
    # lead eh criado quando usuario faz simulacao no site e fornece info de contato
     def add_lead(name)
