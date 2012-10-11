@@ -76,7 +76,14 @@ module Zohoho
       record = @conn.call('Notes', 'insertRecords', {:xmlData => xmlData, :newFormat => 1}, :post) 
       record['Id']
     end
-    
+
+    def parse_data(data, entry)
+      fl = data.map {|e| Hash['val', e[0], 'content', e[1]]}
+      row = Hash['no', '1', 'FL', fl]
+      data = Hash['row', row]
+      XmlSimple.xml_out(data, :RootName => entry)
+    end
+
     private 
     
     def parse_name(name)
@@ -89,12 +96,6 @@ module Zohoho
       return first_name, last_name
     end 
 
-    def parse_data(data, entry)
-      fl = data.map {|e| Hash['val', e[0], 'content', e[1]]}
-      row = Hash['no', '1', 'FL', fl]
-      data = Hash['row', row]
-      XmlSimple.xml_out(data, :RootName => entry)    
-    end
 
     def find_contacts_by_last_name(last_name)
       search_condition = "(Contact Name|ends with|#{last_name})"
