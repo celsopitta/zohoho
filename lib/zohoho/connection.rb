@@ -61,6 +61,9 @@ module Zohoho
     
     def parse_raw_post(raw)
       if !raw['response'].nil?
+        pp raw['response']
+        pp raw['response']['result']
+
       	record = raw['response']['result']['recorddetail']
       	raw_to_hash record['FL']
       else

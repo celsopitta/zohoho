@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7c828ec9-da40-4507-a538-62e36ef1b528" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/zohoho/crm.rb" afterPath="$PROJECT_DIR$/lib/zohoho/crm.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/zohoho/connection.rb" afterPath="$PROJECT_DIR$/lib/zohoho/connection.rb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/zohoho.gemspec" afterPath="$PROJECT_DIR$/zohoho.gemspec" />
     </list>
     <ignored path="zohoho.iws" />
@@ -52,7 +53,7 @@
       <file leaf-file-name="connection.rb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/lib/zohoho/connection.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+            <state line="65" column="0" selection-start="1986" selection-end="1986" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -77,6 +78,7 @@
       <list>
         <option value="$PROJECT_DIR$/VERSION" />
         <option value="$PROJECT_DIR$/lib/zohoho/crm.rb" />
+        <option value="$PROJECT_DIR$/lib/zohoho/connection.rb" />
         <option value="$PROJECT_DIR$/zohoho.gemspec" />
       </list>
     </option>
@@ -348,16 +350,16 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/lib/zohoho/connection.rb">
+    <entry file="file://$PROJECT_DIR$/lib/zohoho/crm.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+        <state line="123" column="55" selection-start="4597" selection-end="4597" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/lib/zohoho/crm.rb">
+    <entry file="file://$PROJECT_DIR$/lib/zohoho/connection.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="123" column="55" selection-start="4597" selection-end="4597" vertical-scroll-proportion="0.0">
+        <state line="65" column="0" selection-start="1986" selection-end="1986" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
