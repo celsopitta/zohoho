@@ -38,6 +38,18 @@ module Zohoho
       record['Id']
     end
 
+    # converte lead e adiciona proposta
+    def converte_lead_proposta(lead_id, assign_to)
+      xmlData = parse_data_2({'createPotential' => true, 'assignTo' =>  assign_to, 'notifyLeadOwner' => true,
+                            'notifyNewEntityOwner'=> true },
+                             {'Potential Name' => 'nome do potencial',
+                              "Stage" => "Closed Won",
+                              "Data de Fechamento" => Time.now.strftime("%m/%d/%Y")},
+                             'Potentials')
+      id = @conn.call('Leads', 'convertLead', {:xmlData => xmlData, :newFormat => 1, :leadId=> lead_id }, :post)
+      id
+    end
+
     # converte lead
     def convert_lead(lead_id, assign_to)
       xmlData = parse_data({'createPotential' => false, 'assignTo' =>  assign_to, 'notifyLeadOwner' => true,
@@ -99,15 +111,17 @@ module Zohoho
 
 
     def parse_data_2(row1, row2, entry)
+
       fl1 = row1.map {|e| Hash['val', e[0], 'content', e[1]]}
-      row = Hash['no', '1', 'FL', fl1]
+      row = Hash['no', '1', 'option', fl1]
       row1 = Hash['row', row]
 
       fl2 = row2.map {|e| Hash['val', e[0], 'content', e[1]]}
       row = Hash['no', '2', 'FL', fl2]
       row2 = Hash['row', row]
-      data = row1.merge(row2)
-      XmlSimple.xml_out(data, :RootName => entry)
+
+      XmlSimple.xml_out([row1,row2], :RootName => "root").gsub("<anon>\n","").gsub("</anon>\n", "")
+
     end
 
     private 
