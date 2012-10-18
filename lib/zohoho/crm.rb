@@ -121,7 +121,7 @@ module Zohoho
       row = Hash['no', '2', 'FL', fl2]
       row2 = Hash['row', row]
 
-      XmlSimple.xml_out([row1,row2], :RootName => "root").gsub("<anon>\n","").gsub("</anon>\n", "")
+      XmlSimple.xml_out([row1,row2], :RootName => entry).gsub("<anon>\n","").gsub("</anon>\n", "")
 
     end
 
