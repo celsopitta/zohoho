@@ -125,7 +125,7 @@ module Zohoho
 
     def get_by_id(scope, id)
 
-      @conn.call(scope, 'getRecordById', :id => id, :selectColumns => 'Leads(Created Time)')
+      @conn.call(scope, 'getRecordById', :id => id, :newFormat => 1, :selectColumns => 'All')
     end
 
     private
