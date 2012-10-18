@@ -43,7 +43,7 @@ module Zohoho
       xmlData = parse_data_2({'createPotential' => true, 'assignTo' =>  assign_to, 'notifyLeadOwner' => true,
                             'notifyNewEntityOwner'=> true },
                              {'Potential Name' => 'nome do potencial',
-                              "Stage" => "Closed Won",
+                              "Potential Stage" => "Proposal/Price Quote",
                               "Data de Fechamento" => Time.now.strftime("%m/%d/%Y")},
                              'Potentials')
       pp xmlData
