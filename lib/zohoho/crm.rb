@@ -42,7 +42,7 @@ module Zohoho
     def converte_lead_proposta(lead_id, assign_to)
       xmlData = parse_data_2({'createPotential' => true, 'assignTo' =>  assign_to, 'notifyLeadOwner' => true,
                             'notifyNewEntityOwner'=> true },
-                             {'Potential Name' => 'nome do potencial',
+                             {'Potential Name' => 'nome do potencial from hell',
                               "Potential Stage" => "Proposal/Price Quote",
                               "Nome da Administradora" => "Rodobens",
                               'Tipo de Consorcio' => "Motos",
@@ -53,7 +53,7 @@ module Zohoho
                               'Prazo de Pagamento' => "120 meses",
                               'Numero do Contrato' => '1212030303',
                               'Perfil do Cliente' => "comprador",
-                              'Probabilidade' => "66",
+                              #'Probabilidade' => "66",
                               #'Data de Inicio' => Time.now.to_s,
                               "Data de Fechamento" => Time.now.strftime("%m/%d/%Y")},
                              'Potentials')
