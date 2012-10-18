@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7c828ec9-da40-4507-a538-62e36ef1b528" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/zohoho/crm.rb" afterPath="$PROJECT_DIR$/lib/zohoho/crm.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/zohoho.gemspec" afterPath="$PROJECT_DIR$/zohoho.gemspec" />
     </list>
     <ignored path="zohoho.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -31,10 +30,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="zohoho.gemspec" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="zohoho.gemspec" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/zohoho.gemspec">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="7" column="22" selection-start="224" selection-end="224" vertical-scroll-proportion="0.0">
+            <state line="7" column="22" selection-start="224" selection-end="224" vertical-scroll-proportion="0.025423728">
               <folding />
             </state>
           </provider>
@@ -58,10 +57,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="crm.rb" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="crm.rb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/lib/zohoho/crm.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="55" column="54" selection-start="2189" selection-end="2189" vertical-scroll-proportion="0.58474576">
+            <state line="55" column="54" selection-start="2189" selection-end="2189" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -77,8 +76,8 @@
       <list>
         <option value="$PROJECT_DIR$/VERSION" />
         <option value="$PROJECT_DIR$/lib/zohoho/connection.rb" />
-        <option value="$PROJECT_DIR$/zohoho.gemspec" />
         <option value="$PROJECT_DIR$/lib/zohoho/crm.rb" />
+        <option value="$PROJECT_DIR$/zohoho.gemspec" />
       </list>
     </option>
   </component>
@@ -342,13 +341,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/zohoho.gemspec">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="22" selection-start="224" selection-end="224" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/lib/zohoho/connection.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state line="65" column="0" selection-start="1986" selection-end="1986" vertical-scroll-proportion="0.0">
@@ -365,7 +357,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/lib/zohoho/crm.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="55" column="54" selection-start="2189" selection-end="2189" vertical-scroll-proportion="0.58474576">
+        <state line="55" column="54" selection-start="2189" selection-end="2189" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/zohoho.gemspec">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="7" column="22" selection-start="224" selection-end="224" vertical-scroll-proportion="0.025423728">
           <folding />
         </state>
       </provider>
