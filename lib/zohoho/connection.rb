@@ -36,10 +36,14 @@ module Zohoho
       }    
       query.merge!(login)
      url = [zoho_uri, entry, api_method].join('/')
+
      pp url
      case http_method
-      when :get       
-        raw = JSON.parse(self.class.get(url, :query => query).parsed_response)
+       when :get
+         req = self.class.get(url, :query => query)
+         puts "teste"
+         pp req
+         raw = JSON.parse(req.parsed_response)
         parse_raw_get(raw, entry)    
       when :post
         raw = JSON.parse(self.class.post(url, :body => query).parsed_response.to_json)
