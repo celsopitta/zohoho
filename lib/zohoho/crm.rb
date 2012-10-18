@@ -46,6 +46,7 @@ module Zohoho
                               "Stage" => "Closed Won",
                               "Data de Fechamento" => Time.now.strftime("%m/%d/%Y")},
                              'Potentials')
+      pp xmlData
       id = @conn.call('Leads', 'convertLead', {:xmlData => xmlData, :newFormat => 1, :leadId=> lead_id }, :post)
       id
     end

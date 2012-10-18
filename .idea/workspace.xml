@@ -32,10 +32,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="zohoho.gemspec" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="zohoho.gemspec" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/zohoho.gemspec">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="7" column="22" selection-start="224" selection-end="224" vertical-scroll-proportion="0.0">
+            <state line="7" column="20" selection-start="222" selection-end="222" vertical-scroll-proportion="0.025423728">
               <folding />
             </state>
           </provider>
@@ -59,10 +59,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="crm.rb" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="crm.rb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/lib/zohoho/crm.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="41" column="16" selection-start="1197" selection-end="1197" vertical-scroll-proportion="0.27966103">
+            <state line="48" column="16" selection-start="1674" selection-end="1674" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -356,16 +356,16 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/zohoho.gemspec">
+    <entry file="file://$PROJECT_DIR$/lib/zohoho/crm.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="22" selection-start="224" selection-end="224" vertical-scroll-proportion="0.0">
+        <state line="48" column="16" selection-start="1674" selection-end="1674" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/lib/zohoho/crm.rb">
+    <entry file="file://$PROJECT_DIR$/zohoho.gemspec">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="41" column="16" selection-start="1197" selection-end="1197" vertical-scroll-proportion="0.27966103">
+        <state line="7" column="20" selection-start="222" selection-end="222" vertical-scroll-proportion="0.025423728">
           <folding />
         </state>
       </provider>
