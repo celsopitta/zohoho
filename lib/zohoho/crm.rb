@@ -123,13 +123,16 @@ module Zohoho
 
     end
 
-    private 
+    def get_by_id(scope, id)
 
+      @conn.call(scope, 'getRecordById', :id => id, :selectColumns => 'All')
+    end
 
+    private
 
     def find_contacts_by_last_name(last_name)
       search_condition = "(Contact Name|ends with|#{last_name})"
-  @conn.call('Contacts', 'getSearchRecords', :searchCondition => search_condition, :selectColumns => 'All')
+      @conn.call('Contacts', 'getSearchRecords', :searchCondition => search_condition, :selectColumns => 'All')
     end
     
   end 
