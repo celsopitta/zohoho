@@ -39,23 +39,10 @@ module Zohoho
     end
 
     # converte lead e adiciona proposta
-    def converte_lead_proposta(lead_id, assign_to)
+    def converte_lead_proposta(lead_id, hashProposta, assign_to)
       xmlData = parse_data_2({'createPotential' => true, 'assignTo' =>  assign_to, 'notifyLeadOwner' => true,
                             'notifyNewEntityOwner'=> true },
-                             {'Potential Name' => 'nome do potencial from hell',
-                              "Potential Stage" => "Proposal/Price Quote",
-                              "Nome da Administradora" => "Rodobens",
-                              'Tipo de Consorcio' => "Motos",
-                              'Nome do Plano' => "novo plano 120",
-                              'Quantidade de Cartas' => "2",
-                              'Valor da Parcela' => "800.00",
-                              'Valor da Carta' => "20000.00" ,
-                              'Prazo de Pagamento' => "120 meses",
-                              'Numero do Contrato' => '1212030303',
-                              'Perfil do Cliente' => "comprador",
-                              #'Probabilidade' => "66",
-                              #'Data de Inicio' => Time.now.to_s,
-                              "Data de Fechamento" => Time.now.strftime("%m/%d/%Y")},
+                             hashProposta,
                              'Potentials')
       pp xmlData
       id = @conn.call('Leads', 'convertLead', {:xmlData => xmlData, :newFormat => 1, :leadId=> lead_id }, :post)
