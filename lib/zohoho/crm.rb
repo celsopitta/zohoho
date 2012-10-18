@@ -106,7 +106,7 @@ module Zohoho
       fl2 = row2.map {|e| Hash['val', e[0], 'content', e[1]]}
       row = Hash['no', '2', 'FL', fl2]
       row2 = Hash['row', row]
-      data = row1 | row2
+      data = row1.merge(row2)
       XmlSimple.xml_out(data, :RootName => entry)
     end
 
