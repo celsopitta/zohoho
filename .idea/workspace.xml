@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="7c828ec9-da40-4507-a538-62e36ef1b528" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/zohoho.gemspec" afterPath="$PROJECT_DIR$/zohoho.gemspec" />
-    </list>
+    <list default="true" id="7c828ec9-da40-4507-a538-62e36ef1b528" name="Default" comment="" />
     <ignored path="zohoho.iws" />
     <ignored path=".idea/workspace.xml" />
     <option name="TRACKING_ENABLED" value="true" />
