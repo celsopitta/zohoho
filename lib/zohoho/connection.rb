@@ -42,6 +42,7 @@ module Zohoho
        when :get
          req = self.class.get(url, :query => query)
          puts "teste"
+         pp query
          pp req
          raw = JSON.parse(req.parsed_response)
         parse_raw_get(raw, entry)    
