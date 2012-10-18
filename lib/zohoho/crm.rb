@@ -44,6 +44,17 @@ module Zohoho
                             'notifyNewEntityOwner'=> true },
                              {'Potential Name' => 'nome do potencial',
                               "Potential Stage" => "Proposal/Price Quote",
+                              "Nome da Administradora" => "Rodobens",
+                              'Tipo de Consorcio' => "Motos",
+                              'Nome do Plano' => "novo plano 120",
+                              'Quantidade de Cartas' => "2",
+                              'Valor da Parcela' => "800.00",
+                              'Valor da Carta' => "20000.00" ,
+                              'Prazo de Pagamento' => "120 meses",
+                              'Numero do Contrato' => '1212030303',
+                              'Perfil do Cliente' => "comprador",
+                              'Probabilidade' => "66",
+                              #'Data de Inicio' => Time.now.to_s,
                               "Data de Fechamento" => Time.now.strftime("%m/%d/%Y")},
                              'Potentials')
       pp xmlData
