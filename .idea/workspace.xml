@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7c828ec9-da40-4507-a538-62e36ef1b528" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/zohoho/crm.rb" afterPath="$PROJECT_DIR$/lib/zohoho/crm.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/zohoho/connection.rb" afterPath="$PROJECT_DIR$/lib/zohoho/connection.rb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/zohoho.gemspec" afterPath="$PROJECT_DIR$/zohoho.gemspec" />
     </list>
     <ignored path="zohoho.iws" />
@@ -52,7 +53,7 @@
       <file leaf-file-name="connection.rb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/lib/zohoho/connection.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="62" column="74" selection-start="1910" selection-end="1910" vertical-scroll-proportion="0.0">
+            <state line="77" column="14" selection-start="2271" selection-end="2271" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -76,15 +77,15 @@
     <option name="changedFiles">
       <list>
         <option value="$PROJECT_DIR$/VERSION" />
-        <option value="$PROJECT_DIR$/lib/zohoho/connection.rb" />
         <option value="$PROJECT_DIR$/lib/zohoho/crm.rb" />
+        <option value="$PROJECT_DIR$/lib/zohoho/connection.rb" />
         <option value="$PROJECT_DIR$/zohoho.gemspec" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="-106" />
-    <option name="y" value="75" />
+    <option name="x" value="30" />
+    <option name="y" value="46" />
     <option name="width" value="1165" />
     <option name="height" value="803" />
   </component>
@@ -187,7 +188,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-106" y="75" width="1165" height="803" extended-state="0" />
+    <frame x="30" y="46" width="1165" height="803" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -355,7 +356,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/lib/zohoho/connection.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="62" column="74" selection-start="1910" selection-end="1910" vertical-scroll-proportion="0.0">
+        <state line="77" column="14" selection-start="2271" selection-end="2271" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>

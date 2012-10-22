@@ -48,6 +48,7 @@ module Zohoho
         parse_raw_get(raw, entry)    
       when :post
         raw = JSON.parse(self.class.post(url, :body => query).parsed_response.to_json)
+        pp raw
 	      parse_raw_post(raw)
       else
         raise "#{http_method} is not a recognized http method"
@@ -73,8 +74,10 @@ module Zohoho
       	record = raw['response']['result']['recorddetail']
       	raw_to_hash record['FL']
       else
-	record = raw['success']
-	record["Contact"]["__content__"]
+        # TODO ARRUMAR RECORD PARA OUTROS TIPOS DE DADOS
+        pp raw
+	      record = raw['success']
+	      record["Contact"]["__content__"]
       end
     end
     
