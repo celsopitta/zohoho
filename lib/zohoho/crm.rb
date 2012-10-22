@@ -38,6 +38,12 @@ module Zohoho
       record['Id']
     end
 
+    def update_lead_xml(lead_id, xmlData)
+
+      record = @conn.call('Leads', 'updateRecords', {:xmlData => xmlData, :newFormat => 1, :id => lead_id}, :post)
+      record['Id']
+    end
+
     # converte lead e adiciona proposta
     def converte_lead_proposta(lead_id, hashProposta, assign_to)
       xmlData = parse_data_2({'createPotential' => true, 'assignTo' =>  assign_to, 'notifyLeadOwner' => true,
