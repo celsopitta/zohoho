@@ -46,7 +46,7 @@ module Zohoho
 
     def update_potential_xml(potential_id, xmlData)
 
-      record = @conn.call('Potential', 'updateRecords', {:xmlData => xmlData, :newFormat => 1, :id => potential_id}, :post)
+      record = @conn.call('Potentials', 'updateRecords', {:xmlData => xmlData, :newFormat => 1, :id => potential_id}, :post)
       record['Id']
     end
 
