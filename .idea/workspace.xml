@@ -53,7 +53,7 @@
       <file leaf-file-name="connection.rb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/lib/zohoho/connection.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="77" column="14" selection-start="2271" selection-end="2271" vertical-scroll-proportion="0.0">
+            <state line="79" column="82" selection-start="2379" selection-end="2379" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -356,7 +356,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/lib/zohoho/connection.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="77" column="14" selection-start="2271" selection-end="2271" vertical-scroll-proportion="0.0">
+        <state line="79" column="82" selection-start="2379" selection-end="2379" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>

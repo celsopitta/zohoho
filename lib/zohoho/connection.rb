@@ -77,7 +77,7 @@ module Zohoho
         # TODO ARRUMAR RECORD PARA OUTROS TIPOS DE DADOS
         pp raw
 	      record = raw['success']
-	      record["Contact"]["__content__"]
+	      [record["Contact"]["__content__"],record["Potential"]["__content__"]]
       end
     end
     
