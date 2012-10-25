@@ -146,9 +146,9 @@ module Zohoho
       @conn.call(scope, 'getRecordById', :id => id, :newFormat => 1, :selectColumns => 'All')
     end
 
-    def find_contact_by_email(email)
+    def find_by_email(scope,email)
       search_condition = "(Email|=|#{email})"
-      @conn.call('Contacts', 'getSearchRecords', :searchCondition => search_condition, :selectColumns => 'All')
+      @conn.call(scope, 'getSearchRecords', :searchCondition => search_condition, :selectColumns => 'All')
     end
 
     private

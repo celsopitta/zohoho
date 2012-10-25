@@ -2,11 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7c828ec9-da40-4507-a538-62e36ef1b528" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/.rakeTasks" afterPath="$PROJECT_DIR$/.idea/.rakeTasks" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/zohoho.iml" afterPath="$PROJECT_DIR$/.idea/zohoho.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/zohoho/crm.rb" afterPath="$PROJECT_DIR$/lib/zohoho/crm.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/zohoho.gemspec" afterPath="$PROJECT_DIR$/zohoho.gemspec" />
     </list>
     <ignored path="zohoho.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -55,7 +51,7 @@
       <file leaf-file-name="crm.rb" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/lib/zohoho/crm.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="148" column="29" selection-start="5227" selection-end="5248" vertical-scroll-proportion="0.55069125">
+            <state line="148" column="49" selection-start="5253" selection-end="5253" vertical-scroll-proportion="0.5852535">
               <folding />
             </state>
           </provider>
@@ -80,8 +76,8 @@
       <list>
         <option value="$PROJECT_DIR$/VERSION" />
         <option value="$PROJECT_DIR$/lib/zohoho/connection.rb" />
-        <option value="$PROJECT_DIR$/lib/zohoho/crm.rb" />
         <option value="$PROJECT_DIR$/zohoho.gemspec" />
+        <option value="$PROJECT_DIR$/lib/zohoho/crm.rb" />
       </list>
     </option>
   </component>
@@ -369,7 +365,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/lib/zohoho/crm.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="148" column="29" selection-start="5227" selection-end="5248" vertical-scroll-proportion="0.55069125">
+        <state line="148" column="49" selection-start="5253" selection-end="5253" vertical-scroll-proportion="0.5852535">
           <folding />
         </state>
       </provider>
