@@ -6,8 +6,8 @@ module Zohoho
     include HTTParty
     default_timeout 40
     
-    def initialize(service_name, username, password, apikey)
-      @service_name, @username, @password, @api_key = service_name, username, password, apikey
+    def initialize(service_name, username, password, apikey, ticket_str)
+      @service_name, @username, @password, @api_key, @ticket_str = service_name, username, password, apikey, ticket_str
     end 
     
     def ticket_url
@@ -30,9 +30,9 @@ module Zohoho
     def call(entry, api_method, query = {}, http_method = :get)
       login = {
         :scope => "crmapi",
-        :authtoken => "029db8e03e2c8ea5706fb0c078827df5",
+        :authtoken => @ticket_str,
         :apikey => api_key,
-        :ticket => "029db8e03e2c8ea5706fb0c078827df5"
+        :ticket => @ticket_str
       }    
       query.merge!(login)
      url = [zoho_uri, entry, api_method].join('/')

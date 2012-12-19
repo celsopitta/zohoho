@@ -6,7 +6,7 @@ describe "Zohoho::CRM" do
     @username = 'kentonwhite'
     @password = 'mopa3lwb'
     @apikey = 'L-PvsrDNn9EIW2phA3vzp9YuL5REECogkQaMGWeIdlI$'
-    @crm = Zohoho::Crm.new(@username, @password, @apikey) 
+    @crm = Zohoho::Crm.new(@username, @password, @apikey, nil)
     vcr_config 'crm'    
   end 
   

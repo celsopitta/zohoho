@@ -10,9 +10,9 @@ module Zohoho
       default_timeout t
     end
     
-    def initialize(username, password, apikey, type = 'json')
+    def initialize(username, password, apikey, ticket_str, type = 'json')
       @type = type
-      @conn = Zohoho::Connection.new 'zohopeople', username, password, apikey
+      @conn = Zohoho::Connection.new 'zohopeople', username, password, apikey, ticket_str
     end
     
     def auth_url

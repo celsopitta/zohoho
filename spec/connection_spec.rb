@@ -6,7 +6,7 @@ describe "Zohoho::Connection" do
     @username = 'kentonwhite'
     @password = 'mopa3lwb'
     @apikey = 'L-PvsrDNn9EIW2phA3vzp9YuL5REECogkQaMGWeIdlI$'
-    @conn = Zohoho::Connection.new('ZohoCRM', @username, @password, @apikey) 
+    @conn = Zohoho::Connection.new('ZohoCRM', @username, @password, @apikey, nil)
     vcr_config 'connection'    
   end
   it "should create the proper ticket url" do
