@@ -146,6 +146,12 @@ module Zohoho
       @conn.call(scope, 'getRecordById', :id => id, :newFormat => 1, :selectColumns => 'All')
     end
 
+    def find_by_tag(scope, from_index, to_index)
+
+
+      @conn.call(scope, 'getRecords', :fromIndex => from_index, :toIndex => to_index)
+    end
+
     def find_by_email(scope,email)
       search_condition = "(Email|=|#{email})"
       @conn.call(scope, 'getSearchRecords', :searchCondition => search_condition, :selectColumns => 'All')
